@@ -1,0 +1,19 @@
+{
+  "id": "nextcloud-aio",
+  "name": "Nextcloud",
+  "version": "33.0.6",
+  "description": "Nextcloud is a self-hosted file storage and sync platform with powerful collaboration capabilities. It integrates Files, Talk, Groupware, Office, Assistant, and more into a single platform. Self-host it on your own server with Dokploy, which deploys Nextcloud as a Docker Compose service in a few clicks.",
+  "logo": "nextcloud.png",
+  "links": {
+    "github": "https://github.com/nextcloud/docker",
+    "website": "https://nextcloud.com/",
+    "docs": "https://docs.nextcloud.com/"
+  },
+  "tags": [
+    "file-manager",
+    "sync"
+  ],
+  "seoTitle": "Nextcloud Docker Compose Setup",
+  "seoDescription": "File storage, sync, and collaboration platform. Deploy Nextcloud with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

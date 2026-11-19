@@ -1,0 +1,18 @@
+{
+  "id": "umami",
+  "name": "Umami",
+  "version": "v3.4.1",
+  "description": "Umami is a simple website analytics tool and an alternative to Google Analytics. Self-host it on your own server with Dokploy, which deploys Umami as a Docker Compose service in a few clicks.",
+  "logo": "umami.png",
+  "links": {
+    "github": "https://github.com/umami-software/umami",
+    "website": "https://umami.is",
+    "docs": "https://umami.is/docs"
+  },
+  "tags": [
+    "analytics"
+  ],
+  "seoTitle": "Umami Docker Compose Setup",
+  "seoDescription": "Simple website analytics, an alternative to Google Analytics. Deploy Umami with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

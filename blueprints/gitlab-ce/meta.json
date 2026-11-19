@@ -1,0 +1,20 @@
+{
+  "id": "gitlab-ce",
+  "name": "GitLab CE",
+  "version": "19.1.2",
+  "description": "GitLab CE is a platform for Git repositories, CI/CD, and project management. Self-host it on your own server with Dokploy, which deploys GitLab CE as a Docker Compose service in a few clicks.",
+  "logo": "gitlab-ce.svg",
+  "links": {
+    "github": "https://gitlab.com/gitlab-org/gitlab-ce",
+    "website": "https://gitlab.com/",
+    "docs": "https://docs.gitlab.com/ee/"
+  },
+  "tags": [
+    "git",
+    "ci-cd",
+    "version-control",
+    "project-management"
+  ],
+  "seoTitle": "Self-Host GitLab CE in minutes",
+  "seoDescription": "Git repos, CI/CD, and project management. Self-host GitLab CE on Dokploy in minutes – no manual setup needed."
+}

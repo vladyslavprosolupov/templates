@@ -1,0 +1,20 @@
+{
+  "id": "qbittorrent",
+  "name": "qBittorrent",
+  "version": "latest",
+  "description": "qBittorrent is an open-source BitTorrent client you can control from a web interface. Self-host it on your own server with Dokploy, which deploys qBittorrent as a Docker Compose service in a few clicks.",
+  "logo": "qbittorrent.svg",
+  "links": {
+    "github": "https://github.com/qbittorrent/qBittorrent",
+    "website": "https://www.qbittorrent.org/",
+    "docs": "https://github.com/qbittorrent/qBittorrent/wiki"
+  },
+  "tags": [
+    "torrent",
+    "download",
+    "file-sharing"
+  ],
+  "seoTitle": "qBittorrent Docker Compose Setup",
+  "seoDescription": "Open source BitTorrent client. Deploy qBittorrent with Docker Compose on Dokploy – check the container logs for your temporary admin password on first login.",
+  "newConfig": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "pgadmin",
+  "name": "pgAdmin",
+  "version": "8.3",
+  "description": "pgAdmin is an administration and management tool for PostgreSQL databases. Self-host it on your own server with Dokploy, which deploys pgAdmin as a Docker Compose service in a few clicks.",
+  "links": {
+    "github": "https://github.com/pgadmin-org/pgadmin4",
+    "website": "https://www.pgadmin.org/",
+    "docs": "https://www.pgadmin.org/docs/"
+  },
+  "logo": "pgadmin.webp",
+  "tags": [
+    "database",
+    "postgres",
+    "admin"
+  ],
+  "seoTitle": "pgAdmin Docker Compose Setup",
+  "seoDescription": "Admin tool for PostgreSQL databases. Deploy pgAdmin with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

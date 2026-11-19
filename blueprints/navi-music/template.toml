@@ -1,0 +1,15 @@
+[config]
+env = [
+  # Required: create a Discord bot and paste its token.
+  "DISCORD_TOKEN=",
+  # Optional but recommended for Spotify links: https://developer.spotify.com/dashboard
+  "SPOTIFY_CLIENT_ID=",
+  "SPOTIFY_CLIENT_SECRET=",
+  # YouTube OAuth2 refresh token is required by current NaviMusic versions.
+  "YOUTUBE_OAUTH2=",
+  # Optional YouTube tweaks.
+  "YOUTUBE_POTOKEN=",
+  "YOUTUBE_VISITOR=",
+  # Shared secret for the internal yt-cipher service.
+  "YOUTUBE_CIPHER_PASSWORD=${password:32}",
+]

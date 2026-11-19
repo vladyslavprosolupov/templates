@@ -1,0 +1,21 @@
+{
+  "id": "vault",
+  "name": "Vault",
+  "version": "2.0.3",
+  "description": "Vault is HashiCorp's tool for securely storing and managing secrets and encryption keys. Self-host it on your own server with Dokploy, which deploys Vault as a Docker Compose service in a few clicks.",
+  "logo": "vault.svg",
+  "links": {
+    "github": "https://github.com/hashicorp/vault",
+    "website": "https://www.vaultproject.io/",
+    "docs": "https://developer.hashicorp.com/vault/docs"
+  },
+  "tags": [
+    "security",
+    "secrets",
+    "devops",
+    "infrastructure"
+  ],
+  "seoTitle": "Vault Docker Compose Setup",
+  "seoDescription": "Tool for securely storing secrets and keys. Deploy Vault with Docker Compose on Dokploy – sign in using the auto-generated root token env var.",
+  "newConfig": true
+}

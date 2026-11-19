@@ -1,0 +1,17 @@
+{
+  "id": "directus",
+  "name": "Directus",
+  "version": "12.1.1",
+  "description": "Directus is an open-source headless CMS that adds an API and admin app to your SQL database. Self-host it on your own server with Dokploy, which deploys Directus as a Docker Compose service in a few clicks.",
+  "logo": "directus.jpg",
+  "links": {
+    "github": "https://github.com/directus/directus",
+    "website": "https://directus.io/",
+    "docs": "https://directus.com/docs/"
+  },
+  "tags": [
+    "cms"
+  ],
+  "seoTitle": "Self-Host Directus in minutes",
+  "seoDescription": "Headless CMS for building custom backends. Self-host Directus on Dokploy in minutes – no manual setup needed."
+}

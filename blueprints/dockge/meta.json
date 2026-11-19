@@ -1,0 +1,20 @@
+{
+  "id": "dockge",
+  "name": "Dockge",
+  "version": "1",
+  "description": "Dockge is a web interface for managing Docker Compose stacks. Self-host it on your own server with Dokploy, which deploys Dockge as a Docker Compose service in a few clicks.",
+  "logo": "dockge.svg",
+  "links": {
+    "github": "https://github.com/louislam/dockge",
+    "website": "https://dockge.kuma.pet/",
+    "docs": "https://github.com/louislam/dockge"
+  },
+  "tags": [
+    "docker",
+    "compose",
+    "management"
+  ],
+  "seoTitle": "Dockge Docker Compose Setup",
+  "seoDescription": "Web UI for managing Docker Compose stacks. Deploy Dockge with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

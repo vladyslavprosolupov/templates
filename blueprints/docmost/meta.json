@@ -1,0 +1,19 @@
+{
+  "id": "docmost",
+  "name": "Docmost",
+  "version": "0.4.1",
+  "description": "Docmost is a collaborative wiki and documentation tool. Self-host it on your own server with Dokploy, which deploys Docmost as a Docker Compose service in a few clicks.",
+  "logo": "docmost.png",
+  "links": {
+    "github": "https://github.com/docmost/docmost",
+    "website": "https://docmost.com/",
+    "docs": "https://docmost.com/docs/"
+  },
+  "tags": [
+    "self-hosted",
+    "open-source",
+    "manager"
+  ],
+  "seoTitle": "Self-Host Docmost in minutes",
+  "seoDescription": "Collaborative wiki and documentation tool. Self-host Docmost on Dokploy in minutes – no manual setup needed."
+}

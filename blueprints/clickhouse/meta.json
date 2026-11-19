@@ -1,0 +1,22 @@
+{
+  "id": "clickhouse",
+  "name": "ClickHouse",
+  "version": "latest",
+  "description": "ClickHouse is a fast, open-source columnar database built for real-time analytics. Self-host it on your own server with Dokploy, which deploys ClickHouse as a Docker Compose service in a few clicks.",
+  "logo": "clickhouse_logo.png",
+  "links": {
+    "github": "https://github.com/ClickHouse/ClickHouse",
+    "website": "https://clickhouse.com/",
+    "docs": "https://clickhouse.com/docs"
+  },
+  "tags": [
+    "self-hosted",
+    "open-source",
+    "database",
+    "olap",
+    "analytics"
+  ],
+  "seoTitle": "ClickHouse Docker Compose Setup",
+  "seoDescription": "Fast columnar database for analytics. Deploy ClickHouse with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

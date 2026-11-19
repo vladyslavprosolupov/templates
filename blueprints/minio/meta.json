@@ -1,0 +1,18 @@
+{
+  "id": "minio",
+  "name": "Minio",
+  "description": "MinIO is an open-source, S3-compatible object storage server. Self-host it on your own server with Dokploy, which deploys MinIO as a Docker Compose service in a few clicks.",
+  "logo": "minio.png",
+  "version": "RELEASE.2026-06-18T00-00-00Z",
+  "links": {
+    "github": "https://github.com/pgsty/minio",
+    "website": "https://silo.pigsty.io/",
+    "docs": "https://silo.pigsty.io/docs/"
+  },
+  "tags": [
+    "storage"
+  ],
+  "seoTitle": "MinIO Docker Compose Setup",
+  "seoDescription": "S3-compatible object storage server. Deploy MinIO with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

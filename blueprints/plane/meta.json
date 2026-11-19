@@ -1,0 +1,18 @@
+{
+  "id": "plane",
+  "name": "Plane",
+  "version": "v1.3.1",
+  "description": "Plane is a project management tool and an open-source alternative to Jira and Asana. Self-host it on your own server with Dokploy, which deploys Plane as a Docker Compose service in a few clicks.",
+  "logo": "plane.png",
+  "links": {
+    "github": "https://github.com/makeplane/plane",
+    "website": "https://plane.so",
+    "docs": "https://docs.plane.so/"
+  },
+  "tags": [
+    "kanban",
+    "project-management"
+  ],
+  "seoTitle": "Self-Host Plane in minutes",
+  "seoDescription": "Project management, an alternative to Jira and Asana. Self-host Plane on Dokploy in minutes – no manual setup needed."
+}

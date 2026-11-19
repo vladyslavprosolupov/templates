@@ -1,0 +1,22 @@
+{
+  "id": "jenkins",
+  "name": "jenkins",
+  "version": "latest",
+  "description": "Jenkins is an open-source automation server for building CI/CD pipelines. Self-host it on your own server with Dokploy, which deploys Jenkins as a Docker Compose service in a few clicks.",
+  "logo": "jenkins.svg",
+  "links": {
+    "github": "https://github.com/jenkinsci/jenkins",
+    "website": "https://www.jenkins.io/",
+    "docs": "https://www.jenkins.io/doc/"
+  },
+  "tags": [
+    "ci-cd",
+    "devops",
+    "automation",
+    "pipelines",
+    "open-source"
+  ],
+  "seoTitle": "Jenkins Docker Compose Setup",
+  "seoDescription": "Automation server for CI/CD pipelines. Deploy Jenkins with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

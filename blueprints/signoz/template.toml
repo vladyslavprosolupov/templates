@@ -1,5 +1,6 @@
 [variables]
 main_domain = "${domain}"
+otel_domain = "${domain}"
 jwt_secret = "${password:64}"
 
 [config]
@@ -12,7 +13,7 @@ path = "/"
 [[config.domains]]
 serviceName = "otel-collector"
 port = 4318
-host = "${main_domain}"
+host = "${otel_domain}"
 path = "/"
 
 [config.env]
@@ -471,7 +472,7 @@ content = """
                 <my_ad_server>
                     <host>localhost</host>
                     <port>389</port>
-                    <bind_dn>EXAMPLE\{user_name}</bind_dn>
+                    <bind_dn>EXAMPLE\\{user_name}</bind_dn>
                     <user_dn_detection>
                         <base_dn>CN=Users,DC=example,DC=com</base_dn>
                         <search_filter>(&amp;(objectClass=user)(sAMAccountName={user_name}))</search_filter>
@@ -623,14 +624,14 @@ content = """
          To install and run JDBC bridge in background:
          * [Debian/Ubuntu]
            export MVN_URL=https://repo1.maven.org/maven2/ru/yandex/clickhouse/clickhouse-jdbc-bridge
-           export PKG_VER=$(curl -sL $MVN_URL/maven-metadata.xml | grep '<release>' | sed -e 's|.*>\(.*\)<.*|\1|')
+           export PKG_VER=$(curl -sL $MVN_URL/maven-metadata.xml | grep '<release>' | sed -e 's|.*>\\(.*\\)<.*|\\1|')
            wget https://github.com/ClickHouse/clickhouse-jdbc-bridge/releases/download/v$PKG_VER/clickhouse-jdbc-bridge_$PKG_VER-1_all.deb
            apt install --no-install-recommends -f ./clickhouse-jdbc-bridge_$PKG_VER-1_all.deb
            clickhouse-jdbc-bridge &
 
          * [CentOS/RHEL]
            export MVN_URL=https://repo1.maven.org/maven2/ru/yandex/clickhouse/clickhouse-jdbc-bridge
-           export PKG_VER=$(curl -sL $MVN_URL/maven-metadata.xml | grep '<release>' | sed -e 's|.*>\(.*\)<.*|\1|')
+           export PKG_VER=$(curl -sL $MVN_URL/maven-metadata.xml | grep '<release>' | sed -e 's|.*>\\(.*\\)<.*|\\1|')
            wget https://github.com/ClickHouse/clickhouse-jdbc-bridge/releases/download/v$PKG_VER/clickhouse-jdbc-bridge-$PKG_VER-1.noarch.rpm
            yum localinstall -y clickhouse-jdbc-bridge-$PKG_VER-1.noarch.rpm
            clickhouse-jdbc-bridge &
@@ -1067,11 +1068,11 @@ content = """
     <query_masking_rules>
         <rule>
             <name>hide encrypt/decrypt arguments</name>
-            <regexp>((?:aes_)?(?:encrypt|decrypt)(?:_mysql)?)\s*\(\s*(?:'(?:\\'|.)+'|.*?)\s*\)</regexp>
+            <regexp>((?:aes_)?(?:encrypt|decrypt)(?:_mysql)?)\\s*\\(\\s*(?:'(?:\\'|.)+'|.*?)\\s*\\)</regexp>
             <!-- or more secure, but also more invasive:
-                (aes_\w+)\s*\(.*\)
+                (aes_\\w+)\\s*\\(.*\\)
             -->
-            <replace>\1(???)</replace>
+            <replace>\\1(???)</replace>
         </rule>
     </query_masking_rules>
 
@@ -1246,7 +1247,23 @@ content = """
 """
 
 [[config.mounts]]
-filePath = "/signoz/prometheus.xml"
+filePath = "/clickhouse/docker_related_config.xml"
+content = """
+<?xml version="1.0"?>
+<clickhouse>
+    <!-- Overrides the docker image's default config.d/docker_related_config.xml,
+         which listens on the IPv6 wildcard address ([::]) first. On hosts without
+         IPv6 support the bind fails, so listen on IPv4 only. -->
+    <listen_host>0.0.0.0</listen_host>
+    <listen_try>1</listen_try>
+    <!-- Container IPs can change and DNS records (zookeeper-1, clickhouse) may not
+         be ready the moment ClickHouse starts. Do not cache DNS lookup failures. -->
+    <disable_internal_dns_cache>1</disable_internal_dns_cache>
+</clickhouse>
+"""
+
+[[config.mounts]]
+filePath = "/signoz/prometheus.yml"
 content = """
 # my global config
 global:

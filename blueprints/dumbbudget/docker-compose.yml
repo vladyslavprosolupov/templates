@@ -1,9 +1,8 @@
-version: "3.8"
 services:
   dumbbudget:
     image: dumbwareio/dumbbudget:latest
     restart: unless-stopped
-    ports:
+    expose:
       - 3000
     volumes:
       - dumbbudget-data:/app/data

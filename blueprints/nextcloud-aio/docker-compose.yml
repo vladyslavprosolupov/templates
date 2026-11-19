@@ -1,6 +1,6 @@
 services:
   nextcloud:
-    image: nextcloud:stable
+    image: nextcloud:33.0.6
     restart: always
     volumes:
       - nextcloud_data:/var/www/html
@@ -10,6 +10,21 @@ services:
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+    depends_on:
+      - nextcloud_db
+      - nextcloud_redis
+
+  nextcloud_cron:
+    image: nextcloud:33.0.6
+    restart: always
+    volumes:
+      - nextcloud_data:/var/www/html
+    environment:
+      - MYSQL_HOST=nextcloud_db
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+    entrypoint: /cron.sh
     depends_on:
       - nextcloud_db
       - nextcloud_redis

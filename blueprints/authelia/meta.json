@@ -1,0 +1,24 @@
+{
+  "id": "authelia",
+  "name": "Authelia",
+  "version": "latest",
+  "description": "Authelia is an open-source authentication portal for single sign-on (SSO) and two-factor authentication. Self-host it on your own server with Dokploy, which deploys Authelia as a Docker Compose service in a few clicks.",
+  "logo": "authelia.png",
+  "links": {
+    "github": "https://github.com/authelia/authelia",
+    "website": "https://www.authelia.com/",
+    "docs": "https://www.authelia.com/overview/prologue/introduction/"
+  },
+  "tags": [
+    "authentication",
+    "authorization",
+    "2fa",
+    "sso",
+    "security",
+    "reverse-proxy",
+    "ldap"
+  ],
+  "seoTitle": "Authelia Docker Compose Setup",
+  "seoDescription": "Single sign-on and two-factor auth portal. Deploy Authelia with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

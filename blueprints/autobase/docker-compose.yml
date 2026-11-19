@@ -1,8 +1,8 @@
 services:
   autobase-console:
-    image: autobase/console:2.5.2
+    image: autobase/console:2.11.0
     restart: unless-stopped
-    ports:
+    expose:
       - "80"
       - "8080"
     environment:
@@ -10,8 +10,10 @@ services:
       - PG_CONSOLE_AUTHORIZATION_TOKEN=${PG_CONSOLE_AUTHORIZATION_TOKEN}
     volumes:
       - console_postgres:/var/lib/postgresql
+      - dbdesk_studio_data:/opt/dbdesk-studio
       - /var/run/docker.sock:/var/run/docker.sock
       - /tmp/ansible:/tmp/ansible
 
 volumes:
   console_postgres:
+  dbdesk_studio_data:

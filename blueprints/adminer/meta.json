@@ -1,0 +1,21 @@
+{
+  "id": "adminer",
+  "name": "Adminer",
+  "version": "4.8.1",
+  "description": "Adminer is a lightweight, web-based database management tool. Self-host it on your own server with Dokploy, which deploys Adminer as a Docker Compose service in a few clicks.",
+  "logo": "logo.svg",
+  "links": {
+    "github": "https://github.com/vrana/adminer",
+    "website": "https://www.adminer.org/",
+    "docs": "https://www.adminer.org/en/plugins/"
+  },
+  "tags": [
+    "databases",
+    "developer-tools",
+    "mysql",
+    "postgresql"
+  ],
+  "seoTitle": "Adminer Docker Compose Setup",
+  "seoDescription": "Lightweight database management tool. Deploy Adminer with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "glances",
+  "name": "Glances",
+  "version": "4.3.0.8",
+  "description": "Glances is a cross-platform system monitoring tool. Self-host it on your own server with Dokploy, which deploys Glances as a Docker Compose service in a few clicks.",
+  "logo": "glances.svg",
+  "links": {
+    "github": "https://github.com/nicolargo/glances",
+    "website": "https://nicolargo.github.io/glances/",
+    "docs": "https://glances.readthedocs.io/"
+  },
+  "tags": [
+    "monitoring"
+  ],
+  "seoTitle": "Glances Docker Compose Setup",
+  "seoDescription": "Cross-platform system monitoring tool. Deploy Glances with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

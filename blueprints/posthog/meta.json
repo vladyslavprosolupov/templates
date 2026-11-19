@@ -1,0 +1,21 @@
+{
+  "id": "posthog",
+  "name": "PostHog",
+  "version": "master-2026-07-14",
+  "description": "PostHog is an open-source product analytics platform with feature flags and session replay. Self-host it on your own server with Dokploy, which deploys PostHog as a Docker Compose service in a few clicks.",
+  "logo": "posthog.svg",
+  "links": {
+    "github": "https://github.com/PostHog/posthog",
+    "website": "https://posthog.com/",
+    "docs": "https://posthog.com/docs/self-host"
+  },
+  "tags": [
+    "analytics",
+    "product-analytics",
+    "feature-flags",
+    "session-replay",
+    "ab-testing"
+  ],
+  "seoTitle": "Self-Host PostHog in minutes",
+  "seoDescription": "Product analytics with feature flags and session replay. Self-host PostHog on Dokploy in minutes – no manual setup needed."
+}

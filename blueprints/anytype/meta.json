@@ -1,0 +1,19 @@
+{
+  "id": "anytype",
+  "name": "Anytype",
+  "version": "latest",
+  "description": "Anytype is a private, offline-first app for notes and personal knowledge. Self-host it on your own server with Dokploy, which deploys Anytype as a Docker Compose service in a few clicks.",
+  "logo": "logo.png",
+  "links": {
+    "github": "https://github.com/grishy/any-sync-bundle",
+    "docs": "https://doc.anytype.io/anytype-docs",
+    "website": "https://anytype.io/"
+  },
+  "tags": [
+    "note-taking",
+    "local-first",
+    "peer-to-peer"
+  ],
+  "seoTitle": "Self-Host Anytype with Dokploy",
+  "seoDescription": "Private, offline-first personal knowledge base. Self-host Anytype on Dokploy – view your client config afterward with a quick command inside the container."
+}

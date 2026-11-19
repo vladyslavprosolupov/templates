@@ -1,0 +1,19 @@
+{
+  "id": "homarr",
+  "name": "Homarr",
+  "version": "latest",
+  "description": "Homarr is a dashboard for organizing and accessing all your apps from one place. Self-host it on your own server with Dokploy, which deploys Homarr as a Docker Compose service in a few clicks.",
+  "logo": "homarr.png",
+  "links": {
+    "github": "https://github.com/homarr-labs/homarr",
+    "docs": "https://homarr.dev/docs/getting-started/installation/docker",
+    "website": "https://homarr.dev/"
+  },
+  "tags": [
+    "dashboard",
+    "monitoring"
+  ],
+  "seoTitle": "Homarr Docker Compose Setup",
+  "seoDescription": "Dashboard for organizing self-hosted apps. Deploy Homarr with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

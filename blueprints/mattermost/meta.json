@@ -1,0 +1,18 @@
+{
+  "id": "mattermost",
+  "name": "Mattermost",
+  "version": "10.6.1",
+  "description": "Mattermost is a team chat platform and an alternative to Slack. Self-host it on your own server with Dokploy, which deploys Mattermost as a Docker Compose service in a few clicks.",
+  "logo": "mattermost.png",
+  "links": {
+    "github": "https://github.com/mattermost/mattermost",
+    "website": "https://mattermost.com/",
+    "docs": "https://docs.mattermost.com/"
+  },
+  "tags": [
+    "chat",
+    "self-hosted"
+  ],
+  "seoTitle": "Self-Host Mattermost in minutes",
+  "seoDescription": "Team chat platform, an alternative to Slack. Self-host Mattermost on Dokploy in minutes – no manual setup needed."
+}

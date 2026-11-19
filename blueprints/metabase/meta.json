@@ -1,0 +1,19 @@
+{
+  "id": "metabase",
+  "name": "Metabase",
+  "version": "v0.63.18",
+  "description": "Metabase is an open-source business intelligence tool for exploring and visualizing data. Self-host it on your own server with Dokploy, which deploys Metabase as a Docker Compose service in a few clicks.",
+  "logo": "metabase.png",
+  "links": {
+    "github": "https://github.com/metabase/metabase",
+    "website": "https://www.metabase.com/",
+    "docs": "https://www.metabase.com/docs/"
+  },
+  "tags": [
+    "database",
+    "dashboard"
+  ],
+  "seoTitle": "Metabase Docker Compose Setup",
+  "seoDescription": "Business intelligence and data visualization. Deploy Metabase with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

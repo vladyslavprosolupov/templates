@@ -1,0 +1,21 @@
+{
+  "id": "immich",
+  "name": "Immich",
+  "version": "v3.0.2",
+  "description": "Immich is a photo and video backup app and an alternative to Google Photos. Self-host it on your own server with Dokploy, which deploys Immich as a Docker Compose service in a few clicks.",
+  "logo": "immich.svg",
+  "links": {
+    "github": "https://github.com/immich-app/immich",
+    "website": "https://immich.app/",
+    "docs": "https://immich.app/docs/overview/introduction"
+  },
+  "tags": [
+    "photos",
+    "videos",
+    "backup",
+    "media"
+  ],
+  "seoTitle": "Immich Docker Compose Setup",
+  "seoDescription": "Photo and video backup solution – a self-hosted alternative to Google Photos. Deploy with Docker Compose on Dokploy in minutes.",
+  "newConfig": true
+}

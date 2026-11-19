@@ -1,0 +1,20 @@
+{
+  "id": "affinepro",
+  "name": "Affine Pro",
+  "version": "stable",
+  "description": "AFFiNE is a workspace for notes, docs, and whiteboards, and an alternative to Notion. Self-host it on your own server with Dokploy, which deploys AFFiNE as a Docker Compose service in a few clicks.",
+  "logo": "logo.png",
+  "links": {
+    "github": "https://github.com/toeverything/Affine",
+    "website": "https://affine.pro/",
+    "docs": "https://docs.affine.pro/"
+  },
+  "tags": [
+    "collaboration",
+    "self-hosted",
+    "productivity",
+    "project-management"
+  ],
+  "seoTitle": "Self-Host Affine in minutes",
+  "seoDescription": "Workspace for notes and docs, an alternative to Notion. Self-host Affine on Dokploy in minutes – no manual setup needed."
+}

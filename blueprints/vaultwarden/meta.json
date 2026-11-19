@@ -1,0 +1,18 @@
+{
+  "id": "vaultwarden",
+  "name": "Vaultwarden",
+  "version": "1.37.5",
+  "description": "Vaultwarden is a lightweight password manager that works with Bitwarden apps. Self-host it on your own server with Dokploy, which deploys Vaultwarden as a Docker Compose service in a few clicks.",
+  "logo": "vaultwarden.svg",
+  "links": {
+    "github": "https://github.com/dani-garcia/vaultwarden",
+    "website": "",
+    "docs": "https://github.com/dani-garcia/vaultwarden/wiki"
+  },
+  "tags": [
+    "open-source"
+  ],
+  "seoTitle": "Vaultwarden Docker Compose Setup",
+  "seoDescription": "Lightweight Bitwarden-compatible password manager. Deploy Vaultwarden with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

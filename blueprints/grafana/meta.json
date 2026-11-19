@@ -1,0 +1,18 @@
+{
+  "id": "grafana",
+  "name": "Grafana",
+  "version": "12.4",
+  "description": "Grafana is an open-source dashboard tool for monitoring and visualizing data. Self-host it on your own server with Dokploy, which deploys Grafana as a Docker Compose service in a few clicks.",
+  "logo": "grafana.svg",
+  "links": {
+    "github": "https://github.com/grafana/grafana",
+    "website": "https://grafana.com/",
+    "docs": "https://grafana.com/docs/"
+  },
+  "tags": [
+    "monitoring"
+  ],
+  "seoTitle": "Grafana Docker Compose Setup",
+  "seoDescription": "Dashboards for monitoring and data visualization. Deploy Grafana with Docker Compose on Dokploy in minutes – free, open source, self-hosted.",
+  "newConfig": true
+}

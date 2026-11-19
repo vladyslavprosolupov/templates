@@ -1,0 +1,19 @@
+{
+  "id": "chatwoot",
+  "name": "Chatwoot",
+  "version": "v4.12.1",
+  "description": "Chatwoot is an open-source customer support and engagement platform with a shared inbox and live chat. Self-host it on your own server with Dokploy, which deploys Chatwoot as a Docker Compose service in a few clicks.",
+  "logo": "chatwoot.svg",
+  "links": {
+    "github": "https://github.com/chatwoot/chatwoot",
+    "website": "https://www.chatwoot.com",
+    "docs": "https://www.chatwoot.com/docs"
+  },
+  "tags": [
+    "support",
+    "chat",
+    "customer-service"
+  ],
+  "seoTitle": "Self-Host Chatwoot in minutes",
+  "seoDescription": "Shared inbox and live chat for customer support. Self-host Chatwoot on Dokploy in minutes – no manual setup needed."
+}

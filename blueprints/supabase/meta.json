@@ -1,0 +1,21 @@
+{
+  "id": "supabase",
+  "name": "SupaBase",
+  "version": "2026.08.03-3 / dokploy >= 0.22.5",
+  "description": "Supabase is a Postgres-based backend platform and an open-source alternative to Firebase. Self-host it on your own server with Dokploy, which deploys Supabase as a Docker Compose service in a few clicks.",
+  "links": {
+    "github": "https://github.com/supabase/supabase",
+    "website": "https://supabase.com/",
+    "docs": "https://supabase.com/docs/guides/self-hosting"
+  },
+  "logo": "supabase.svg",
+  "tags": [
+    "database",
+    "firebase",
+    "postgres"
+  ],
+  "dokploy_version": ">=0.22.5",
+  "seoTitle": "Supabase: Self-Hosted & Docker Compose",
+  "seoDescription": "Open source Firebase alternative with Postgres. Self-host Supabase via Docker Compose on Dokploy in minutes – no manual setup needed.",
+  "newConfig": true
+}

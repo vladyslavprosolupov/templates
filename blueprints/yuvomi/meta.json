@@ -1,0 +1,19 @@
+{
+  "id": "yuvomi",
+  "name": "Yuvomi",
+  "version": "2.80.0",
+  "description": "Privacy-first, self-hosted family planner: tasks, calendar sync, shopping, meals, budget, health and more in one PWA. No cloud, no subscriptions, no tracking.",
+  "logo": "yuvomi.svg",
+  "links": {
+    "github": "https://github.com/ulsklyc/yuvomi",
+    "website": "https://yuvomi.cloud/",
+    "docs": "https://github.com/ulsklyc/yuvomi#readme"
+  },
+  "tags": [
+    "open-source",
+    "family",
+    "productivity",
+    "calendar",
+    "tasks"
+  ]
+}
